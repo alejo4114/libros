@@ -15,8 +15,13 @@ public class PruebaLibros {
         lib.setCalif(9);
         lib.setNumPag(360);
         
+        Libros lib2 = new Libros("IT","StephenKing");
+        lib2.setCalif(8);
+        lib2.setNumPag(500);
+        
         ConjuntoLibros cl = new ConjuntoLibros();
         cl.llenarConjunto(lib);
+        cl.llenarConjunto(lib2);
         
         
         
